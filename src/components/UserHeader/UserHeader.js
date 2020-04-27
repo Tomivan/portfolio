@@ -26,17 +26,11 @@ const UserHeader = ({ user }) => {
           <p>Coding in {user.basics.region}</p>
           <p>{user.basics.yearsOfExperience} years of experience as a developer</p>
           <p>{user.basics.headline}</p>
-          <p>
-            Blog:{' '}
-            <a href={user.basics.blog} target="_blank" rel="noreferrer noopener">
-              {user.basics.blog}
-            </a>
-          </p>
         </div>
       </Header>
       <div>
         <ViewResumeLink
-          href={`https://gitconnected.com/${user.basics.username}/resume`}
+          href={`https://docs.google.com/document/d/1RszZaorho2GeIWGKrlKh8uFya6Mad5ETU34rfu_6Xlw/edit?ts=5e6d0f65`}
           target="_blank"
           rel="noopener noreferrer"
         >
