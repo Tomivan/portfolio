@@ -17,9 +17,9 @@ const Education = ({ user }) => {
                   {education.studyType}, {education.area}
                 </Degree>{' '}
                 <span> &sdot; </span>
-                {/* <span>
+                <span>
                   {education.start.year} to {education.end.year}
-                </span> */}
+                </span>
               </div>
               <Paragraph>{education.description.replace('\n\n', '\n')}</Paragraph>
             </EducationItem>

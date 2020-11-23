@@ -9,6 +9,7 @@ const items = [
   { name: 'Projects', path: '/projects' },
   { name: 'Work', path: '/work' },
   { name: 'Education', path: '/education' },
+  // { name: 'Certifications', path: '/certifications'}
 ];
 
 const Sidebar = () => {
@@ -17,7 +18,7 @@ const Sidebar = () => {
   return (
     <StyledSideNav isFixedNav expanded isChildOfHeader={false} aria-label="Side navigation">
       <SideNavItems>
-        {items.map(i => (
+      {items.map(i => (
           <SideNavLink
             isActive={
               location.pathname === '/' && i.path === '/' ? true : location.pathname === i.path

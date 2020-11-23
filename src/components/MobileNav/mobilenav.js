@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { User32, Code32, Portfolio32, Education32 } from '@carbon/icons-react'
 
